@@ -9,10 +9,10 @@ import matplotlib.pyplot as plt # this is the only line required to make plots w
 
 x=np.linspace(-np.pi*4, np.pi*4, 1000)
 
-plt.plot(x, np.sin(x))
+plt.plot(x, np.cos(x))
 plt.xlabel("x") 
-plt.ylabel("sin(x)") 
-plt.title("Seno") 
+plt.ylabel("cos(x)") 
+plt.title("Coseno") 
 
 
 plt.savefig("funcion.png") 
